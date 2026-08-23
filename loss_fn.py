@@ -4,9 +4,6 @@ import numpy as np
 
 def loss_fn(predicted, true):
 
-    #using formula loss = sum of all cost fn
-    #cost fn = (predicted-expected)**2
-
     loss = np.sum((predicted - true)**2)
     return loss
 
